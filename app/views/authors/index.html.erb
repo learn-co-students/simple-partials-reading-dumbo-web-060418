@@ -1,0 +1,9 @@
+<h1>This are all my authors</h1>
+
+<% @authors.each do |author| %>
+  <div>
+    <p>
+      <%= author.name %> - <%= author.hometown %>
+    </p>
+  </div>
+<% end %>
